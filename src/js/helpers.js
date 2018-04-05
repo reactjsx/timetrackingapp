@@ -1,4 +1,5 @@
 const helpers = exports;
+const uuid = require('uuid');
 
 const pad = (numberString, size) => {
   let padded = numberString;
